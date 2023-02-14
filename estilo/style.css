@@ -24,7 +24,7 @@ main{
     
 }
 
-section#telefone{ /* SEMPRE NO MEIO DA PARTE VERDE*/
+section#telefone{ /* SEMPRE NO MEIO DO BODY*/
     position: absolute;
     top: 50%;
     left: 50%;
@@ -33,4 +33,12 @@ section#telefone{ /* SEMPRE NO MEIO DA PARTE VERDE*/
     height: 627px;
     width: 311px;
     background: url('../imagens/frame-iphone.png') no-repeat;
+}
+
+iframe#tela{
+    position: relative;
+    top: 81px;
+    left: 23px;
+    width: 265px;
+    height: 469px;
 }
